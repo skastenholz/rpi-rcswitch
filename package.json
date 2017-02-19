@@ -1,0 +1,20 @@
+{
+  "name": "rcswitch",
+  "description": "Control power switches remotely via http/REST",
+  "main": "server.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/skastenholz/rpi-rcswitch.git"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.0.0",
+    "sleep": "^5.1.0"
+  },
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-cli": "^1.2.0",
+    "grunt-contrib-jshint": "^1.1.0",
+    "grunt-jsbeautifier": "^0.2.13"
+  }
+}
